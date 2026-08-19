@@ -1,7 +1,8 @@
 name: One-time mirror from supersoft
 
 on:
-  push:
+  issues:
+    types: [opened]
 
 permissions:
   contents: write
